@@ -382,3 +382,8 @@ FROM quarter1_job_postings q
 LEFT JOIN skills s 
     ON q.job_id = s.job_id
 WHERE q.salary_year_avg > 70000;
+
+SELECT * FROM job_postings_fact LIMIT 10
+SELECT * FROM skills_dim LIMIT 10
+SELECT * FROM skills_job_dim LIMIT 10
+SELECT * FROM february_jobs LIMIT 10
