@@ -22,4 +22,4 @@ SELECT
         PARTITION BY job_country 
         ORDER BY most_requested_skill DESC
     ) AS rn
-FROM skill_counts;
+FROM skill_counts
